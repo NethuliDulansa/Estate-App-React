@@ -1,0 +1,239 @@
+[
+  {
+    "id": 1,
+    "type": "House",
+    "price": 3000,
+    "bedrooms":5,
+    "dateAdded": "2024-12-01",
+    "postcode": "BR6",
+    "shortDescription": "A beautiful 5-bedroom house",
+    "longDescription": "This stunning 5-bedroom house offers a spacious living room filled with natural light, a modern and fully-equipped kitchen, and a luxurious master bedroom. The property boasts a beautiful garden perfect for entertaining, a private balcony for relaxation, and ample parking space. Located in a quiet neighborhood, it’s ideal for families or professionals.",
+    "keyFeatures": [
+      "5 spacious bedrooms",
+      "3 modern bathrooms with high-end finishes",
+      "Large garden, perfect for gatherings",
+      "Private parking for up to 3 vehicles",
+      "Balcony overlooking a serene view",
+      "Recently renovated kitchen with modern appliances"
+    ],
+    "images": [
+      "/images/img1.jpg",
+      "/images/h2.jpg",
+      "/images/k1.jpg",
+      "/images/b1.jpg",
+      "/images/bed1.jpg",
+      "/images/garden1.jpg",
+      "/images/balcony1.jpg",
+      "/images/pool1.jpg",
+      "/images/outdoor1.jpg"
+    ],
+    "floorPlan": "/images/floorplan1.jpg"
+  },
+  {
+    "id": 2,
+    "type": "House",
+    "price": 2500,
+    "bedrooms": 7,
+    "dateAdded": "2024-12-02",
+    "postcode": "BR5",
+    "shortDescription": "A cozy 7-bedroom house",
+    "longDescription": "This charming 7-bedroom house offers an inviting living space with a cozy fireplace, a modern open-plan kitchen, and a spacious dining area. The property includes a well-maintained garden, perfect for outdoor activities, and a private driveway for convenience. Situated close to schools, parks, and shops, it’s the perfect family home.",
+    "keyFeatures": [
+      "7 bedrooms, ideal for large families",
+      "4 bathrooms, including an en-suite in the master bedroom",
+      "Open-plan living and dining areas",
+      "Landscaped garden with a patio for outdoor dining",
+      "Secure private driveway for multiple vehicles"
+    ],
+    "images": [
+      "/images/img3.jpg",
+      "/images/liv1.jpg",
+      "/images/k2.jpg",
+      "/images/b2.jpg",
+      "/images/bed2.jpg",
+      "/images/garden2.jpg",
+      "/images/balcony2.jpg",
+      "/images/pool2.jpg",
+      "/images/outdoor2.jpg"
+    ],
+    "floorPlan": "/images/floorplan2.jpg"
+  },
+  {
+    "id": 3,
+    "type": "House",
+    "price": 3500,
+    "bedrooms": 8,
+    "dateAdded": "2024-11-02",
+    "postcode": "BR3",
+    "shortDescription": "A cozy 8-bedroom house",
+    "longDescription": "This expansive 8-bedroom house is perfect for large families or those who love to entertain. Featuring a grand living room, a state-of-the-art kitchen with top-notch appliances, and a spacious backyard, this property has it all. Located in a prestigious area, it offers easy access to transport links, schools, and local amenities.",
+    "keyFeatures": [
+      "8 bedrooms, including a master suite with walk-in closets",
+      "5 bathrooms with elegant tiling",
+      "A spacious backyard with potential for landscaping",
+      "Grand living room with a fireplace",
+      "Proximity to transport and schools"
+    ],
+    "images": [
+      "/images/img4.jpg",
+      "/images/liv2.jpg",
+      "/images/k3.jpg",
+      "/images/b3.jpg",
+      "/images/bed3.jpg",
+      "/images/garden3.jpg",
+      "/images/balcony3.jpg",
+      "/images/pool3.jpg",
+      "/images/outdoor3.jpg"
+    ],
+    "floorPlan": "/images/floorplan3.jpg"
+  },
+  {
+    "id": 4,
+    "type": "Flat",
+    "price": 5500,
+    "bedrooms": 2,
+    "dateAdded": "2024-11-25",
+    "postcode": "BR3",
+    "shortDescription": "Emerald Heights: A cozy 2-bedroom flat available now",
+    "longDescription": "This delightful 2-bedroom flat is located in a secure and modern development. It features a bright open-plan living area, a contemporary kitchen, and two spacious bedrooms with built-in wardrobes. The property also offers access to a shared garden, a gym, and secure parking. Ideal for young professionals or small families.",
+   "keyFeatures": [
+        "2 large bedrooms with built-in wardrobes",
+        "2 modern bathrooms",
+        "Open-plan living space with ample natural light",
+        "Shared garden and gym access",
+        "Secure parking included"
+      ],
+    "images": [
+      "/images/flat1.jpg",
+      "/images/liv3.jpg",
+      "/images/k4.jpg",
+      "/images/b4.jpg",
+      "/images/bed4.jpg",
+      "/images/garden4.jpg",
+      "/images/balcony4.jpg",
+      "/images/pool4.jpg",
+      "/images/gym1.jpg"
+    ],
+    "floorPlan": "/images/floorplan4.jpg"
+  },
+  {
+    "id": 5,
+    "type": "Flat",
+    "price": 4500,
+    "bedrooms": 5,
+    "dateAdded": "2024-11-16",
+    "postcode": "NW2",
+    "shortDescription": "Maple Grove: Spacious 5-bedroom flat available now",
+    "longDescription": "This luxurious 5-bedroom flat offers breathtaking views, a modern interior design, and spacious rooms throughout. The flat includes a high-end kitchen, a large living room with floor-to-ceiling windows, and en-suite bathrooms for added privacy. Amenities include a swimming pool, a gym, and a concierge service.",
+    "keyFeatures": [
+      "5 bedrooms with en-suite bathrooms",
+      "High-end kitchen with premium appliances",
+      "Floor-to-ceiling windows for panoramic views",
+      "Access to a swimming pool, gym, and concierge services"
+    ],
+    "images": [
+      "/images/flat2.jpg",
+      "/images/liv4.jpg",
+      "/images/k5.jpg",
+      "/images/b5.jpg",
+      "/images/bed5.jpg",
+      "/images/garden5.jpg",
+      "/images/balcony5.jpg",
+      "/images/pool5.jpg",
+      "/images/gym2.jpg"
+    ],
+    "floorPlan": "/images/floorplan5.jpg"
+  },
+  {
+    "id": 6,
+    "type": "Flat",
+    "price": 5500,
+    "bedrooms": 8,
+    "dateAdded": "2024-10-16",
+    "postcode": "NW3",
+    "shortDescription": "Crystal Towers: A luxury 8-bedroom flat available now",
+    "longDescription": "Experience unmatched luxury in this 8-bedroom flat located in one of the city’s most sought-after areas. With elegant interiors, premium finishes, and state-of-the-art facilities, this property sets a new standard for modern living. Enjoy access to a private gym, swimming pool, and rooftop terrace with panoramic views.",
+    "keyFeatures": [
+      "8 luxurious bedrooms",
+      "6 bathrooms with premium fittings",
+      "Rooftop terrace with breathtaking views",
+      "Private gym and swimming pool access",
+      "Located in a prime neighborhood"
+    ],
+    "images": [
+      "/images/flat3.jpg",
+      "/images/liv5.jpg",
+      "/images/k6.jpg",
+      "/images/b6.jpg",
+      "/images/bed6.jpg",
+      "/images/garden6.jpg",
+      "/images/balcony6.jpg",
+      "/images/pool6.jpg",
+      "/images/gym3.jpg"
+    ],
+    "floorPlan": "/images/floorplan6.jpg"
+  },
+
+  {
+    "id": 7,
+    "type": "House",
+    "price": 8500,
+    "bedrooms": 6,
+    "dateAdded": "2024-12-10",
+    "postcode": "NW6",
+    "shortDescription":"Spacious 6-bedroom house",
+    "longDescription":"Discover a stunning 6-bedroom house in NW6, blending contemporary style with practical living. This home features generous living spaces, a modern kitchen, and a beautifully landscaped private garden. Perfect for families or professionals seeking a luxurious and comfortable lifestyle.",
+    "keyFeatures": [
+      "6 spacious bedrooms, including a master suite",
+      "4 bathrooms with modern designs",
+      "Landscaped garden for outdoor relaxation",
+      "Large kitchen with top-of-the-line appliances",
+      "Situated in a quiet, family-friendly area"
+    ],
+
+    "images": [
+      "/images/house7.jpg",
+      "/images/liv6.jpg",
+      "/images/k6.jpg",
+      "/images/b7.jpg",
+      "/images/bed6.jpg",
+      "/images/garden7.jpg",
+      "/images/balcony6.jpg",
+      "/images/pool7.jpg",
+      "/images/outdoor4.jpg"
+    ],
+    "floorPlan": "/images/floorplan6.jpg"
+  },
+
+  
+  {
+    "id": 8,
+    "type": "Flat",
+    "price": 9500,
+    "bedrooms": 4,
+    "dateAdded": "2024-12-16",
+    "postcode": "NW3",
+    "shortDescription": "Skyline Heights: A spacious 4-bedroom flat",
+    "longDescription": "Experience unmatched luxury in this 8-bedroom flat located in one of the city’s most sought-after areas. With elegant interiors, premium finishes, and state-of-the-art facilities, this property sets a new standard for modern living. Enjoy access to a private gym, swimming pool, and rooftop terrace with panoramic views.",
+    "keyFeatures": [
+      "4 bedrooms with built-in wardrobes",
+      "3 bathrooms, including an en-suite master bath",
+      "Rooftop terrace with city skyline views",
+      "Swimming pool and gym access",
+      "Located in a prestigious area"
+    ],
+    "images": [
+      "/images/flat4.jpg",
+      "/images/liv7.jpg",
+      "/images/k6.jpg",
+      "/images/b8.jpg",
+      "/images/bed6.jpg",
+      "/images/garden8.jpg",
+      "/images/balcony6.jpg",
+      "/images/pool8.jpg",
+      "/images/gym4.jpg"
+    ],
+    "floorPlan": "/images/floorplan6.jpg"
+  }
+]
+

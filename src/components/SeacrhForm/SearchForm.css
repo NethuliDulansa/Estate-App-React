@@ -1,0 +1,134 @@
+/* General Reset */
+body {
+  padding: 10;
+  font-family: Arial, sans-serif;
+  margin-top: 25px;
+}
+
+/* Header Section */
+.header {
+  width: 100%;
+  color: #1b1818;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+/* Split-Screen Layout */
+.split-screen-container {
+  display: flex;
+  height: calc(100vh - 80px); /* Subtract header height */
+}
+
+
+.welcome-text {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+/* Form Styling */
+.search-form {
+  width: 100%;
+  max-width: 400px;
+  max-height: 500px;
+  padding:10px;
+  background-color: rgba(254, 243, 243, 0.9); /* White with transparency */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
+ 
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.form-label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555555;
+}
+
+.form-control {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Full Banner Section */
+.banner {
+  background-image: url('/images/banner1.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full-screen height */
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.banner h1 {
+  z-index: 1;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.search-form {
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.search-form .form-control,
+.search-form .form-select {
+  height: 38px;
+}
+
+.search-form .btn {
+  height: 38px;
+  background-color: rgb(90, 195, 90);
+  
+  border: none;
+  padding: 0 20px;
+}
+
+  .custom-select {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline:#070707;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width:90px;
+  }
+
+
+  .custom-select:hover {
+    background-color: #e9ecef;
+  }
+
+  .custom-select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  }
+
+  .custom-select option {
+    font-family: Arial, sans-serif;
+    padding: 5px;
+  } 

@@ -1,0 +1,139 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  position: fixed; /* Makes the navbar fixed to the top */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ensures the navbar spans the full width */
+  z-index: 1000; /* Keeps it above other elements */
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.login-link {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.login-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.site-logo {
+  width: 50px;
+  height: 50px;
+}
+.favorites-container {
+  position: relative;
+}
+
+.favorites-link {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+
+.favorites-link i {
+  font-size: 20px;
+  font-style: normal;
+  
+}
+
+.favorites-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff6347; /* Tomato color for count */
+  color: white;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.favorites-list {
+  position: absolute;
+  right: 10px;
+  top: 50px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.favorite-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.favorite-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.favorite-details {
+  flex-grow: 1;
+}
+
+.no-favorites {
+  text-align: center;
+  color: #888;
+  margin: 10px 0;
+}
+
+.favorites-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  position: relative;
+}
+
+.favorites-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

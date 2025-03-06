@@ -1,0 +1,56 @@
+.property-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Price Style */
+  .property-price {
+    background-color: rgb(90, 195, 90);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 180px;
+  }
+  
+  /* Location Style */
+  .property-location {
+    color: #6f6767; /* Custom text color */
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  /*Property Label Style */
+  .property-label{
+    background-color: rgb(161, 227, 161);
+    color: rgb(67, 122, 72);
+    padding: 5px 10px;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  /* Apartment Name Style */
+.property-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6d5e5e; /* Darker color for emphasis */
+  margin-bottom: 8px;
+  text-transform: capitalize; /* Makes first letter uppercase */
+}
+
+
+
+  

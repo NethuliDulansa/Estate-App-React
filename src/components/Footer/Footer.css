@@ -1,0 +1,141 @@
+.footer {
+    background-color: #1f2833;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+  }
+  
+  .footer-logo {
+    flex: 1;
+  }
+  
+  .footer-logo h1 {
+    color: #fff;
+  }
+  
+  .footer-logo p {
+    margin: 10px 0;
+  }
+  
+  .subscribe-form {
+    display: flex;
+  }
+  
+  .subscribe-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    flex: 1;
+
+  }
+  
+  .subscribe-button {
+    padding: 10px;
+    background-color:#28a745;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+  }
+  
+  .footer-links div {
+    margin: 0 20px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    color: #aaa;
+  }
+  
+/* Large screen media query (1024px and above) */
+@media (min-width: 1024px) {
+  .footer-container {
+    padding: 40px 80px;
+  }
+
+  .footer-logo {
+    max-width: 40%;
+  }
+
+  .footer-links {
+    max-width: 50%;
+    justify-content: space-between;
+  }
+
+  .subscribe-form {
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+  }
+}
+
+/* iPad landscape and smaller screen media query (less than 1024px) */
+@media (max-width: 1024px) {
+  .footer-container {
+    flex-direction: column;
+    padding: 20px 40px;
+  }
+
+  .footer-logo {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .footer-links div {
+    margin-bottom: 20px;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .subscribe-input {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+
+  .subscribe-button {
+    width: 80%;
+  }
+
+  .footer-bottom {
+    margin-top: 40px;
+  }
+}

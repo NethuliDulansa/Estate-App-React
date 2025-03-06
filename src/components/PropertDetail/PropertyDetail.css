@@ -1,0 +1,62 @@
+/* Tabs Styles */
+.react-tabs__tab-list {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 8px;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .react-tabs__tab {
+    flex: 1;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #555;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+  }
+  
+  .react-tabs__tab--selected {
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid #ddd;
+    border-bottom: none;
+  }
+  
+  .react-tabs__tab:hover {
+    color: #007bff;
+  }
+  
+  /* Tab Panels */
+  .react-tabs__tab-panel {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 0 0 8px 8px;
+    background-color: #fff;
+    margin-top: -1px; /* Removes overlap border */
+  }
+  
+  /* Add spacing and alignment for images and content */
+  .container {
+    max-width: 1200px;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+   
+  }
+  
